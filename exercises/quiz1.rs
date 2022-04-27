@@ -9,14 +9,13 @@
 // the price of an order of apples given the quantity bought. No hints this time!
 
 // Put your function here!
-fn calculate_apple_price(count: i32) -> i32 {
-    if count > 40 {
-        count
+fn calculate_apple_price(apples: u32) -> u32 {
+    if apples > 40 {
+        apples
     } else {
-        count * 2
+        apples * 2
     }
 }
-
 // Don't modify this function!
 #[test]
 fn verify_test() {
